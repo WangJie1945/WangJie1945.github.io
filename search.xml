@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[博客搭建历程]]></title>
+    <url>%2F2017%2F11%2F03%2F%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%8E%86%E7%A8%8B%2F</url>
+    <content type="text"><![CDATA[说在前面 其实早上就有搭建博客的想法，看到别人的博客搭的既简洁有炫酷，然后在博客里分享各种技术上的经验或是生活感悟，很是羡慕，不喜欢其他网站提供的现成模板，喜欢自由，喜欢折腾，就想着自己有时间一定要做一个出来。然而一是一直在忙于各种杂事，没时间做；二是因为懒（这是主要原因）闲的时候不想做，就一拖再拖，直到这段时间稍微闲了一点有了自己的时间，终于可以折腾自己的博客了。 我用了多久搭建自己的博客对着别人五分钟建站，愣是用了我三四天的时间才弄出来，整个过程一波三折，下面记录整个搭建过程。一是自己留一个备份，二是给有机会看到这篇博客的人少走一些弯路。 搭建平台系统：windows10 64位控制台：cmder，githexo+Github 搭建过程整个博客是搭建在github上的，后台用的是hexo，主题是简洁大方的next，域名用的是阿里云的top域名（谁让它便宜呢，一年才一块钱），阅读次数统计用的是leancloud，还有很多功能有待加入。。。不要着急 一、 注册github账户其实这个博客是托管在github上的，作为全球最大的大型同性交友平台，github提供免费的代码托管服务，为了更好的展示项目，github提供了一个github pages用来展示静态的网页，所谓搭建博客，其实借用的就是这个功能。首先注册、登录github.com,记住自己的Username。然后新建一个仓库，仓库的名字和自己Username一直（这个很重要）例如我的域名是Github.com/wangjie1945, 就填入wangjie1945.github.io 二、环境安装1、安装 Node.js2、安装Git for windows。Git教程推荐看廖雪峰老师的，安装完成后在开始菜单里找到Git-&gt;Git Bash,输入自己github的邮箱和用户名。3、安装Hexo$npm install -g hexo - cli如果一切顺利，环境我们就配置好了。 三、设置1、在自己的目录下建立一个目录，命名为blog2、在blog文件夹右击，选择Git Bush Here，输入 hexo init blog 等一下就会有成功提示。 3、执行hexo g命令，生成必要文件4、执行hexo s，启动服务器。5、访问·127.0.0.1/4000,就可以看到网站的初步模样。 四、上传到github在git里加入SSH key，直接连接到github，然后输入hexo d提交给远程仓库。 五、配置博客下载next主题，复制到theme文件夹，启动主题。接下就是对主题的各种折腾，配置各种插件，一个坑接着一个坑 总结这是真正意义上的第一篇技术博客，感觉静下心来写博客真心不容易，对那些写的通俗易懂教程的人崇拜之情又增加了几分，有时间再补一个关于主题的设置吧]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>技术总结,原创,2017</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[测试一下]]></title>
+    <url>%2F2017%2F11%2F01%2Fsecondpage%2F</url>
+    <content type="text"><![CDATA[#出了一点问题不慌]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[博客开通日]]></title>
+    <url>%2F2017%2F10%2F31%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[这是我得第一篇博客，足足折腾了两天才搞出来这么一个东西，还需要慢慢完善，怎么说也要庆祝一下下！虽然没有香槟。。。 开博客原因就是瞎折腾，喜欢新鲜事物，喜欢挑战。``` 接下来的事完善这个博客，我要一直用下去。2017年10月31日 万圣节 Happy，Halloween！]]></content>
+  </entry>
+</search>
